@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120sp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110sp"
+        android:orientation="vertical"
+        android:elevation="5sp"
+        android:layout_margin="5sp"
+        android:background="@drawable/bgcalendar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:textSize="17sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/itemtitle"
+            android:fontFamily="sans-serif-light"
+            android:text="hello "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:textSize="17sp"
+            android:id="@+id/itemdes"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+
+            android:fontFamily="sans-serif-light"
+            android:text="hello"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25sp"
+            android:textSize="17sp"
+            android:id="@+id/itemdate"
+            android:layout_marginTop="7sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:fontFamily="sans-serif-light"
+            android:text="hello world"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
